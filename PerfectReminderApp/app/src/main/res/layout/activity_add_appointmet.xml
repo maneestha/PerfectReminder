@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAppointmet">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/background"
+        android:gravity="center_horizontal"
+        >
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradienteditext">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineAmbientShadowColor="#fff"
+                android:outlineSpotShadowColor="#fff"
+                android:id="@+id/appointSpinner"
+                >
+            </Spinner>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+        <EditText
+            android:id="@+id/selectdate"
+            android:background="@drawable/gradienteditext"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:hint="Select Date(MM/dd/yyyy)"
+            android:clickable="true"
+            android:singleLine="true"
+            android:editable="false"
+            />
+        <EditText
+            android:id="@+id/selectTime"
+            android:background="@drawable/gradienteditext"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:hint="Select Time(HH:MM)"
+            android:singleLine="true"
+            android:focusable="false"
+            android:editable="false"
+            />
+
+        <EditText
+            android:id="@+id/doctorName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradienteditext"
+            android:hint="Doctor's Name"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/hospitalName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradienteditext"
+            android:hint="Hospital Name"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/appointPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradienteditext"
+            android:hint="Contact Number"
+            android:maxLength="10"
+            android:phoneNumber="true"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/appointEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradienteditext"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/appointDetail"
+                android:background="@drawable/gradienteditext"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txttitle"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:hint="Enter Description"
+                android:lines="5"
+                android:maxLength="140"
+                android:nestedScrollingEnabled="true"
+                android:singleLine="false" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnAddAppoint"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/gradienteditext"
+            android:backgroundTint="@color/button"
+            android:textColor="#fff"
+            android:text="Add Appointment"/>
+
+    </LinearLayout>
+
+</ScrollView>

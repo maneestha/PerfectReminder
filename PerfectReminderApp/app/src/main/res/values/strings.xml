@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Perfect Reminder</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="select_appointment_type">appointType</string>
+    <string name="rowID">Row ID</string>
+    <string name="rodId">rowID</string>
+    <string name="row_id">rowID</string>
+
+    <string name="arodId">rowID</string>
+    <string name="arow_id">rowID</string>
+
+    <string name="atitttle">title</string>
+    <string name="aalert_content">alert_content</string>
+    <string name="aalert_title">title</string>
+    <string name="adateformate">dd/MM/yyyy</string>
+    <string name="ahour_minutes">HH:mm</string>
+
+    <string name="titttle">title</string>
+    <string name="alert_content">alert_content</string>
+    <string name="alert_title">title</string>
+    <string name="dateformate">dd/MM/yyyy</string>
+    <string name="hour_minutes">HH:mm</string>
+
+    <string name="delete_title">Delete Selected Task</string>
+    <string name="delete_message">Are you sure?</string>
+    <string name="yes">Yes</string>
+
+    <string name="no">No</string>
+
+    <string-array name="reminderType">
+        <item>Select an option</item>
+        <item>Bluebook</item>
+        <item>License</item>
+        <item>Business Tax</item>
+        <item>House Tax</item>
+    </string-array>
+
+    <string-array name="appointmentType">
+        <item>Select an appointment type</item>
+        <item>Dental </item>
+        <item>Eye Care</item>
+        <item>Diabetes</item>
+    </string-array>
+</resources>
